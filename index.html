@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clear Catalyst Adventures — RV Day Trips on the California Coast</title>
+  <meta name="description" content="Clear Catalyst Adventures offers guided RV day trips from the Bay Area to California's Pacific Coast." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚐</text></svg>">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ocean: { DEFAULT: '#1F4B5C', light: '#2E6B80', dark: '#153740' },
+            sunset: { DEFAULT: '#E0785A', light: '#F7E6DE', medium: '#EA8F73' },
+            sand: '#FBF6EE',
+            dune: '#F1E7D6',
+          },
+          fontFamily: {
+            serif: ['Lora', 'Georgia', 'serif'],
+            sans:  ['Inter', 'system-ui', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-sans text-gray-800 bg-sand antialiased">
+
+  <!-- ─── NAV ─── -->
+  <nav class="fixed top-0 w-full bg-white/95 backdrop-blur-sm border-b border-gray-100 z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-2">
+        <span class="text-2xl">🚐</span>
+        <span class="font-serif text-xl font-semibold text-ocean tracking-tight">Clear Catalyst Adventures</span>
+      </a>
+      <a href="#contact" class="bg-sunset text-white text-sm font-semibold px-5 py-2.5 rounded-lg hover:bg-sunset-medium transition-colors">
+        Get in Touch
+      </a>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <section class="pt-40 pb-24 bg-sand">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <span class="text-sunset text-sm font-semibold uppercase tracking-widest">Bay Area → Pacific Coast</span>
+      <h1 class="font-serif text-5xl md:text-6xl lg:text-7xl font-bold text-ocean leading-[1.1] mt-4 mb-6">
+        RV Day Trips Along the California Coast
+      </h1>
+      <p class="text-gray-600 text-lg md:text-xl max-w-2xl mx-auto mb-12 leading-relaxed">
+        Clear Catalyst Adventures brings the comfort of an RV to a day on California's Pacific Coast —
+        no driving stress, no planning hassle, just the open road and the ocean view.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#contact" class="bg-ocean text-white font-semibold px-8 py-3.5 rounded-xl hover:bg-ocean-light transition-colors">
+          Get in Touch
+        </a>
+        <a href="#experience" class="border-2 border-ocean text-ocean font-semibold px-8 py-3.5 rounded-xl hover:bg-ocean hover:text-white transition-colors">
+          The Experience
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── EXPERIENCE ─── -->
+  <section id="experience" class="py-24 bg-white">
+    <div class="max-w-5xl mx-auto px-6">
+
+      <div class="text-center mb-16">
+        <span class="text-sunset text-sm font-semibold uppercase tracking-widest">The Experience</span>
+        <h2 class="font-serif text-4xl md:text-5xl font-bold text-ocean mt-3 mb-4">What We Offer</h2>
+        <p class="text-gray-500 text-lg max-w-xl mx-auto">
+          Guided RV day trips along the Pacific Coast, built around comfort, scenery, and good company.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <div class="bg-sand rounded-3xl p-8">
+          <div class="w-12 h-12 bg-ocean/10 rounded-xl flex items-center justify-center mb-6">
+            <svg class="w-6 h-6 text-ocean" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 17h8m-8-5h8m-9 9h10a2 2 0 002-2V6a2 2 0 00-2-2H8a2 2 0 00-2 2v13a2 2 0 002 2z"/>
+            </svg>
+          </div>
+          <h3 class="font-serif text-xl font-semibold text-ocean mb-3">Comfortable Travel</h3>
+          <p class="text-gray-600 text-sm leading-relaxed">
+            Relax in a well-equipped RV instead of sitting in traffic — travel in comfort with room to move, rest, and enjoy the ride.
+          </p>
+        </div>
+
+        <div class="bg-sand rounded-3xl p-8">
+          <div class="w-12 h-12 bg-ocean/10 rounded-xl flex items-center justify-center mb-6">
+            <svg class="w-6 h-6 text-ocean" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-1.447-.894L15 9m0 8V9m0 0L9 7"/>
+            </svg>
+          </div>
+          <h3 class="font-serif text-xl font-semibold text-ocean mb-3">Scenic Coastal Routes</h3>
+          <p class="text-gray-600 text-sm leading-relaxed">
+            From the Bay Area to some of California's most beautiful coastline, with stops along the way to take it all in.
+          </p>
+        </div>
+
+        <div class="bg-sand rounded-3xl p-8">
+          <div class="w-12 h-12 bg-ocean/10 rounded-xl flex items-center justify-center mb-6">
+            <svg class="w-6 h-6 text-ocean" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
+            </svg>
+          </div>
+          <h3 class="font-serif text-xl font-semibold text-ocean mb-3">Small-Group Adventures</h3>
+          <p class="text-gray-600 text-sm leading-relaxed">
+            Day trips designed for small groups and families who want an easy, memorable day out on the coast.
+          </p>
+        </div>
+
+      </div>
+
+      <p class="text-center text-gray-400 text-sm mt-16">
+        Specific routes and trip dates are being finalized — reach out below to be the first to hear when booking opens.
+      </p>
+
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ─── -->
+  <section id="contact" class="py-24 bg-ocean">
+    <div class="max-w-2xl mx-auto px-6 text-center">
+      <span class="text-sunset-medium text-sm font-semibold uppercase tracking-widest">Get in Touch</span>
+      <h2 class="font-serif text-4xl md:text-5xl font-bold text-white mt-3 mb-4">Let's Plan Your Trip</h2>
+      <p class="text-blue-100 text-lg mb-10 leading-relaxed max-w-lg mx-auto">
+        Questions about Clear Catalyst Adventures? Reach out by phone or email and we'll get back to you soon.
+      </p>
+      <div class="bg-white/10 border border-white/20 rounded-2xl p-10 flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="mailto:clearcatalystco@gmail.com" class="inline-flex items-center justify-center gap-2 bg-sunset text-white font-semibold px-8 py-4 rounded-xl hover:bg-sunset-medium transition-colors">
+          clearcatalystco@gmail.com
+        </a>
+        <a href="tel:9202510497" class="inline-flex items-center justify-center gap-2 bg-white/10 border border-white/30 text-white font-semibold px-8 py-4 rounded-xl hover:bg-white/20 transition-colors">
+          920-251-0497
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="bg-ocean-dark text-blue-200 py-10">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
+      <span class="font-serif text-white font-semibold text-xl tracking-tight">Clear Catalyst Adventures</span>
+      <p class="text-blue-300">© 2026 Clear Catalyst Adventures. All rights reserved.</p>
+      <div class="flex flex-col md:flex-row items-center gap-3 text-right">
+        <a href="mailto:clearcatalystco@gmail.com" class="hover:text-white transition-colors">clearcatalystco@gmail.com</a>
+        <span class="hidden md:inline text-blue-500">·</span>
+        <a href="tel:9202510497" class="hover:text-white transition-colors">920-251-0497</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
